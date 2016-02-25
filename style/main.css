@@ -1,0 +1,601 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: \201C \201D \2018 \2019;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body, figure {
+  margin: 0;
+}
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #FFD200;
+  color: #323131;
+  font-family: "Verdana", sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+.wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 50px 2%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+header {
+  text-align: center;
+}
+
+header .wrapper {
+  padding-bottom: 0;
+}
+
+header h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #FFF;
+  margin: 0;
+}
+
+header h1 span {
+  color: #0B66B0;
+  font-weight: 700;
+}
+
+header p {
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin: 0;
+}
+
+.userName .wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.userName .wrapper h2, .userName .wrapper input {
+  background: inherit;
+  border: none;
+  outline: none;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+}
+
+.userName .wrapper input {
+  color: #FFF;
+  font-size: 4.8rem;
+  text-transform: uppercase;
+  border-bottom: 5px solid #FFD200;
+}
+
+.userName .wrapper input::-webkit-input-placeholder {
+  color: #ffe980;
+}
+
+.userName .wrapper input::-moz-placeholder {
+  color: #ffe980;
+}
+
+.userName .wrapper input:-ms-input-placeholder {
+  color: #ffe980;
+}
+
+.userName .wrapper input::placeholder {
+  color: #ffe980;
+}
+
+.userName .wrapper input:focus {
+  text-decoration: underline;
+}
+
+#questionsForm {
+  max-width: 980px;
+  margin: 0 auto;
+  box-shadow: 3px 3px 15px #cca800;
+  background: #FFF;
+  color: #323131;
+}
+
+#questionsForm .formHeaderContainer {
+  background: #0B66B0;
+  padding: 25px;
+  color: #FFF;
+  text-align: center;
+}
+
+#questionsForm .formHeaderContainer h2 {
+  font-size: 2.4rem;
+  margin: 0;
+}
+
+#questionsForm .wrapper {
+  padding: 50px 5%;
+}
+
+.question {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.question:after {
+  content: '';
+  width: 75%;
+  height: 1px;
+  background: #D9D9D9;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.questionNumber {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 300px;
+  padding: 2%;
+}
+
+.optionContainer {
+  width: 50%;
+  height: 300px;
+}
+
+label {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  transition: all 0.35s;
+  cursor: pointer;
+}
+
+label p {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+svg {
+  max-width: 100px;
+  max-height: 100px;
+  fill: #323131;
+  transition: all 0.35s;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+input[type=radio]:checked + label {
+  color: #ffd200;
+}
+
+input[type=radio]:checked + label svg {
+  fill: #ffd200;
+}
+
+.submitButton {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.submitButton input[type=submit] {
+  background: #FFF;
+  color: #0B66B0;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 25px;
+  border: 2px solid #0B66B0;
+  border-radius: 40px;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.submitButton input[type=submit]:hover {
+  background: #0B66B0;
+  color: #FFF;
+}
+
+.yourName {
+  display: none;
+}
+
+.yourName h2 {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #ffed99;
+  margin: 0;
+}
+
+.yourName .definition {
+  margin-top: 0;
+  color: #ffed99;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.yourName h3 {
+  font-size: 5.28rem;
+  margin: 0;
+  color: #FFF;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.yourName .userFirst {
+  bottom: -20px;
+}
+
+.yourName .userLast {
+  top: -20px;
+  text-align: right;
+}
+
+.yourName .ikeaName {
+  color: #0B66B0;
+  font-size: 6rem;
+  text-align: center;
+  z-index: 1;
+  text-shadow: 3px 3px 2px #cca800;
+}
+
+.yourCart {
+  display: none;
+}
+
+.yourCart .yourCartContainer {
+  margin: 0 auto;
+  max-width: 980px;
+  background: #FFF;
+  color: #323131;
+  box-shadow: 3px 3px 25px #cca800;
+  padding: 0;
+}
+
+.yourCart .yourCartHeader {
+  background: #0B66B0;
+  color: #FFF;
+  text-align: center;
+  padding: 25px;
+}
+
+.yourCart .yourCartHeader h2 {
+  font-size: 2.4rem;
+  margin: 0;
+}
+
+.yourCart .wrapper {
+  padding: 50px 5%;
+}
+
+.productContainer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  padding: 50px 0;
+}
+
+.productContainer:after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #D9D9D9;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.productImgContainer {
+  width: 20%;
+}
+
+.productTxtContainer {
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0 5%;
+  width: 40%;
+}
+
+.productTxtContainer h4 {
+  font-size: 2.4rem;
+  margin: 0;
+  padding: 0;
+}
+
+.productTxtContainer p {
+  color: #999999;
+  font-size: 1.44rem;
+  line-height: 1.7;
+}
+
+.productTxtContainer p.productInfo {
+  font-style: italic;
+}
+
+.productPriceContainer p {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.productTotalContainer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 0;
+}
+
+.buttonContainer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  padding: 50px 0;
+}
+
+.buttonContainer input[type=submit] {
+  background: #FFF;
+  color: #0B66B0;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 15px;
+  border: 2px solid #0B66B0;
+  border-radius: 50px;
+  transition: all 0.35s;
+  outline: none;
+  min-width: 175px;
+}
+
+.buttonContainer input[type=submit]:hover {
+  background: #0B66B0;
+  color: #FFF;
+}
+
+footer {
+  color: #b39300;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FFF;
+  transition: all 0.35s;
+}
+
+footer a:hover {
+  color: #0B66B0;
+}
+
+@media (max-width: 768px) {
+  #userName {
+    font-size: 2.88rem;
+  }
+  .yourName .ikeaName, .yourName .userFirst, .yourName .userLast {
+    text-align: center;
+    font-size: 4.8rem;
+  }
+  .productTxtContainer h4, .productPriceContainer p {
+    font-size: 1.6rem;
+  }
+}
